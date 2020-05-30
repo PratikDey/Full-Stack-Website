@@ -7,21 +7,31 @@
       src="https://kit.fontawesome.com/f3ba198295.js"
       crossorigin="anonymous"
     ></script>
+    <link
+      href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
     <title>Full Stack</title>
   </head>
-  <body>
+  <body class="w-9/12 my-0 mx-auto max-w-full">
     <nav>
-      <div>
-        <img src="./images/logo.svg" alt="" />
-        <ul>
-          <li><a href="">Catalog</a></li>
-          <li><a href="">Brand</a></li>
-          <li><a href="">Pages</a></li>
-          <li><a href="">Blog</a></li>
-          <li><a href="">About</a></li>
-          <li><a href="">Contacts</a></li>
-        </ul>
-        <ul>
+      <div class="flex justify-between">
+        <div class="flex items-center">
+          <div class="w-20">
+            <img class="h-8" src="./images/logo.svg" alt="" />
+          </div>
+          <div class="ml-0">
+            <ul class="flex">
+              <li class="mx-3"><a href="">Catalog</a></li>
+              <li class="mx-3"><a href="">Brand</a></li>
+              <li class="mx-3"><a href="">Pages</a></li>
+              <li class="mx-3"><a href="">Blog</a></li>
+              <li class="mx-3"><a href="">About</a></li>
+              <li class="mx-3"><a href="">Contacts</a></li>
+            </ul>
+          </div>
+        </div>
+        <ul class="flex">
           <li><i class="fas fa-search"></i></li>
           <li><i class="far fa-copy"></i></li>
           <li><i class="far fa-user"></i></li>
